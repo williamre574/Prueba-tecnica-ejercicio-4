@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  getObesidad:'http://localhost:3000/obesidad',
+  mayor: 'http://localhost:3000/obesidad/mayor',
+  menor: 'http://localhost:3000/obesidad/menor',
+  promedio: 'http://localhost:3000/obesidad/promedio'
 };
 
 /*

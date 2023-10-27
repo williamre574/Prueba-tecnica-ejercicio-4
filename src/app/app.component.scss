@@ -1,0 +1,97 @@
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+  .mpa {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .mat-sort-header-container {
+    align-items: center;
+  }
+  .info {
+    max-height: 300px; /* Altura máxima de la tabla */
+    max-width: 400px;
+    overflow-y: auto;
+    margin: 40px 0px 0px 10%;
+    display: flex;
+    justify-content: center; /* Para centrar horizontalmente */
+    align-items: center; /* Para centrar verticalmente */
+    flex-direction: row;
+  }
+  
+  .example-container {
+    height: 400px;
+    width: 550px;
+    max-width: 100%;
+    overflow: auto;
+  }
+  
+  table {
+    width: 800px;
+  }
+  
+  td.mat-column-star {
+    width: 20px;
+    padding-right: 8px;
+  }
+  
+  th.mat-column-position, td.mat-column-position {
+    padding-left: 8px;
+  }
+  
+  .mat-table-sticky-border-elem-right {
+    border-left: 1px solid #e0e0e0;
+  }
+  
+  .mat-table-sticky-border-elem-left {
+    border-right: 1px solid #e0e0e0;
+  }
+
+  /* Estilo para hacer la tabla más pequeña y agregar un scrollbar */
+.mat-table-container {
+    max-height: 300px; /* Altura máxima de la tabla */
+    overflow-y: auto; /* Agregar scrollbar vertical si la tabla es más grande que la altura máxima */
+  }
+  
+  /* Ajusta otros estilos según tus preferencias, como el tamaño de fuente y el espaciado */
+  .mat-header-cell,
+  .mat-cell {
+    font-size: 14px; /* Tamaño de fuente */
+    padding: 5px; /* Espaciado interno */
+  }
+  .example-card {
+    max-width: 400px;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    max-height: 90px;
+    margin-top: 39px;
+    padding-right:20px;
+  }
+  .conten-card {
+   display: flex;
+   margin-top: 10px;
+   margin-left: 20px;
+  }
+  .example-card{
+    margin-right: 20px;
+  }
+
+  
